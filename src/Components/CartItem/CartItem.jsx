@@ -102,7 +102,7 @@ function CartItem({ item, discountPrice }) {
           size="medium"
           sx={{ mt: 1 }}
         />
-
+        <Box>
         <Button
           variant="contained"
           sx={{ mt: 3, backgroundColor: "#0a345dff" }}
@@ -110,6 +110,7 @@ function CartItem({ item, discountPrice }) {
         >
           Remove Item
         </Button>
+        </Box>
       </Box>
     </Card>
   );
