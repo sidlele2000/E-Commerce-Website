@@ -21,15 +21,12 @@ function ProductDetails() {
 
   useEffect(() => {
     setCurrProducts(products.filter((obj)=>{
-      console.log(id)
-      if(obj.id==id) return true;
-      else return false;
+      if(obj.id==id)
+        return true;
     })[0]
   
   )
-
-    console.log(currProduct)
-  }, [id,products]);
+  }, [id]);
 
   // console.log(id)
   // useEffect(() => {

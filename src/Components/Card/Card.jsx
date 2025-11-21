@@ -32,14 +32,12 @@ function ProductCard({ product, dispatch, addToCart, navigate }) {
                         <Typography sx={{ color: "blue", fontWeight: 700, fontSize: 26 }}>
                             ${discountPrice}
                         </Typography>
-                        <Typography>
                             <Chip
                                 label="10% OFF"
                                 color="primary"
                                 size="small"
                                 sx={{ fontWeight: "bold" }}
                             />
-                        </Typography>
                     </Box>
 
                     <Rating

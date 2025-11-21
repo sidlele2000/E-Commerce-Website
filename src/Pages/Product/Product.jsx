@@ -12,9 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function Product() {
   // const [products, setProducts] = useState([]);
   const products=useSelector((state)=>state.products.value)
-  console.log(products)
   useEffect(() => {
-    console.log(products)
   }, [products]);
 
 // const [search, setSearch] = useState("");
