@@ -18,7 +18,7 @@ function Header() {
   const cartCount = useSelector((state) => state.cart.items.length);
   return (
     <Box sx={{ flex: 1 }}>
-      <AppBar position="fixed" sx={{ backgroundColor: "#074a7dff", py: 1 }}>
+      <AppBar position="fixed" sx={{ backgroundColor: "#074a7dff", py: 1 }} className="app-header">
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box
             sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}
