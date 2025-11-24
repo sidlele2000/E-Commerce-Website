@@ -53,15 +53,15 @@ npm install redux-thunk
 4) for logger
 npm install redux-logger
 
-[screenshots]
+# Screenshots
 
 1) Product page
-![Product page](./assets/product.png)
-![Product page](./assets/products.png)
+![Product page](./src/assets/product.png)
+![Product page](./src/assets/products.png)
 
 2) Cart page
-![Cart page](./assets/cart.png)
+![Cart page](./src/assets/cart.png)
 
 
 3) ProductDetails Page
-![ProductDetails page](./assets/productdetails.png)
+![ProductDetails page](./src/assets/productdetails.png)
