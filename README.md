@@ -56,12 +56,16 @@ npm install redux-logger
 # Screenshots
 
 1) Product page
+
 ![Product page](./src/assets/product.png)
+
 ![Product page](./src/assets/products.png)
 
 2) Cart page
+
 ![Cart page](./src/assets/cart.png)
 
 
 3) ProductDetails Page
+
 ![ProductDetails page](./src/assets/productdetails.png)
