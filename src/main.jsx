@@ -10,7 +10,6 @@ const root=createRoot(document.getElementById('root'));
 
 async function mountMain(){
   await store.dispatch(fetchProducts());
-
   root.render(
   <StrictMode>
     <Provider store={store}>
